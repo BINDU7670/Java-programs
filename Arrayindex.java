@@ -7,8 +7,6 @@ public class Arrayindex {
         for(int i =0;i<=n-1;i++){
             arr[i] = sc.nextInt();
         }
-        //int e_index=0;
-        //int o_index=0;
         for(int i=0;i<=n-1;i++){
             if(arr[i]%2==0){
             System.out.println("Even element at index = " + i + " (value: " + arr[i] + ")");
